@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birth Year</title>
+</head>
+<body>
+    <center>
+        <form style="margin-top: 100px;" >
+            <input style = "height: 30px; width: 250px;" type="date"  name="number" id="number" />
+            <input style = "height: 30px;"type="button" value="Date of Birth" id="button"/>
+            <center><p id="age">Age</p></center>
+        </form>
+    </center>
+    <script type='text/javascript'>
+    
+    
+    function calculateAge() {
+        var birth = document.getElementById("number");
+        var birthDate = new Date(birth.value).getFullYear();
+        var currentDate = new Date().getFullYear();
+        var age = currentDate-birthDate;
+        if (birth==""|| birthDate>=currentDate) {
+            window.alert("Please enter your correct date of birth")
+            
+        } else{
+        
+      
+        document.getElementById("age").style.display='block';
+        document.getElementById("age").innerHTML= "You are "+ age+" years old.";
+        }
+
+    }
+    function yearLimit() {
+        var yearLimi= new Date().getFullYear()-1;
+        return yearLimi;
+    }
+   
+  
+    document.getElementById("age").style.display='none';
+    document.getElementById("button").onclick= function() {calculateAge();}
+    </script>
+</body>
+</html>

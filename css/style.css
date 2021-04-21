@@ -1,0 +1,76 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: helvetica;
+    background-color: #eceefb;
+    justify-content: center;
+}
+
+#header {
+    background-color:#F16F51;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+h1 {
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+}
+
+.row {
+    margin: 10px 20px;
+    padding: 0px 10px;
+}
+
+#results {
+    margin: 30px 20px 10px 0px;
+    padding: 10px 10pxs;
+}
+
+.person-row {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #FDB45C;
+    width: 100%;
+    float: left;
+}
+
+.person-row img {
+    float: left;
+    margin-right: 20px;
+}
+
+.personal-info {
+    float: left;
+}
+
+.person-row > button {
+   float: right; 
+   background-color: burlywood;
+}
+#searchBtn {
+    background-color: rgb(4, 22, 11);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+    width: 10%;
+    margin-left: 6em;
+}
+#searchBtn:hover {
+    border-color:red;
+}
+#gender {
+    width: 180px;
+}
+.row input {
+    margin-left: 8em;
+}
+.row label{
+    position: absolute;
+}
+.row select {
+    margin-left: 8em;
+}
