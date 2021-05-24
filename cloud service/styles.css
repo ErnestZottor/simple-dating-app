@@ -1,0 +1,66 @@
+body{
+    margin: 10% 15%;
+    background-color: #faf1e6;
+}
+.plan1{
+    width: 180px;
+    display: inline-block;
+   margin-right: 20px;
+}
+
+.head{
+    margin-bottom: 0px;
+    background-color: rgb(177, 177, 39);
+    height: 200px;
+}
+.heading{
+    background-color: rgb(110, 148, 35);
+    height: 100px;
+    padding: 10px 0px 0px 0px;
+}
+.fig{
+font-size: 25px;
+margin: 10px;
+font-weight: bold;
+}
+.mont{
+    color: rgb(138, 76, 76);
+}
+.body{
+    padding: 20px 0px 0px 0px;
+    margin-top: 0px;
+    background-color: aliceblue;
+    height: 200px;
+    line-height: 1.5;
+}
+.tail{
+    background-color: rgb(85, 69, 69);
+    height: 40px;
+    padding: 0px 0px 10px 15px;
+   
+}
+.submit{
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: green;
+    margin: 15px;
+}
+.title{
+    text-align: center;
+}
+.short-desc{
+    margin: 10px;
+}
+.image{
+    width: 10px;
+    background-color: rgb(177, 177, 39);
+    width: 180px;
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 10px;
+}
